@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+    font-family: "Roboto";
+}
+
+body{
+    overflow: hidden;
+}
+
+.main-image{
+   height: 100vh;
+   z-index: -1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav-bar{
+   position: absolute;
+   top: 30px;
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+   background-color: transparent;
+}
+
+.hr{
+    background-color: black;
+    margin-top: 8px;
+    height: 2px;
+    margin-left: 200px;
+}
+
+.list-items{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+
+.left-content{
+    width: 600px;
+    
+}
+
+.right-content{
+    margin-left: 10px;
+    width: 800px;
+    height: 100vh;
+    margin-right: 50px;
+   
+}
+
+.heading{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 130px;
+}
+
+.right-paragraph{
+    font-size: 40px;
+    color:  gray;
+    position: relative;
+    left: 550px;
+    width: 100px;
+    top: -60px;  
+}
+
+.span{
+    color: transparent;
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    background-color:#333333;
+    color: #E8E8E8;
+    font-size: 14px;
+}
+
+
+.top{
+    padding: 20px;
+    font-style: italic;
+    font-size: 150px;  
+    color: rgba(0, 0, 0, 0); 
+    -webkit-text-stroke: 0.1px black;
+}
+
+.bottom{
+    font-size: 120px;
+    margin-left: 230px;
+    font-style: italic;  
+}
+
+.button{
+    height: 70px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -50px;
+    border: 0px;
+    padding: 10px;
+}
+
+.bottom-list{
+    width: 250px;
+    margin-left: 30px;
+    height: 200px;
+    margin-top: -220px;
+}
+
+.list-item{
+    padding: 15px 0px;
+}
+
+.stroke{
+    font-style: italic;
+    font-size: 80px;
+    margin-left: 300px;
+    margin-top: -180px;
+}
+
+.bottom-paragraph{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+
+
+.dance{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    right: -250px;
+    bottom: -10px;
+}
+
+.arrow{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: -300px;
+    color: aliceblue;
+}
+
+.social-icon{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+
+.social-meida-icons{
+  position: relative;
+  left: 800px;
+  top: -300px;
+}
