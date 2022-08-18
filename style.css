@@ -165,3 +165,125 @@ button{
   left: 800px;
   top: -300px;
 }
+@media screen and (max-width:415px){    
+    body{
+        padding: 0%;
+        margin: 0%;
+        overflow: hidden;
+    }
+    .left-content{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: auto;
+        height: 500px;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;    
+        gap: 20px;
+    }
+    .logo{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 220px;
+        margin-left: 100px;
+    }
+    .list-items{
+        gap: 20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: auto;
+    }
+    .hr{
+        margin-left: 160px;
+    }
+    .right-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        bottom: -500px;
+        right: 800px;
+    }
+    .heading h1{
+        font-size: 130px;
+        line-height: 100px;
+        width: 350px;
+        margin-left: 160px;
+    }
+    .right-paragraph{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -400px;
+        top: 500px;
+        font-size: 25px
+    }
+    .button{
+        position: relative;
+        left: -1000px;
+        top: 600px;
+        width: 200px;
+    }
+    .social-meida-icons{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -550px;
+        width: 50px;
+        top: 700px;
+        font-size: 30px;
+    }
+    .bottom-list{
+        position: relative;
+        left: -450px;
+        top: 610px;
+    }
+    .stroke{
+        position: relative;
+        left: -550px;
+        top: 250px;
+        font-size: 50px;
+        width: 40px;  
+    }
+    .bottom-paragraph{
+        position: relative;
+        left: -750px;
+        top: 1000px;
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .dance{
+       position: relative;
+       left: -550px;
+       top: 1300px; 
+       width: 300px;
+    }
+    .arrow{
+        position: relative;
+        left: -550px;
+        top: 900px;
+    }
+    .bg{
+        height: 950px;
+        width: 300px;
+        position: relative;
+        left: -550px;
+        top: 200px;
+        opacity: 0.2;
+    }
+}
+
