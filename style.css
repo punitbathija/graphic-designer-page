@@ -182,17 +182,17 @@ button{
         display: flex;
         flex-direction:column;
         justify-content: center;    
-        gap: 5px;
+        gap: 20px;
     }
     .logo{
         display: flex;
         flex-direction:column;
         justify-content: center;
-        width: 220px;
+        width: 200px;
         margin-left: 100px;
     }
     .list-items{
-        gap: 5px;
+        gap: 20px;
         display: flex;
         flex-direction:column;
         justify-content: center;
@@ -200,6 +200,7 @@ button{
     }
     .hr{
         margin-left: 160px;
+        width: 100px
     }
     .right-content{
         display: flex;
@@ -213,21 +214,21 @@ button{
         justify-content: center;
         margin: auto;
         position: relative;
-        bottom: -500px;
+        bottom: -550px;
         right: 800px;
     }
     .heading h1{
-        font-size: 130px;
+        font-size: 110px;
         line-height: 100px;
         width: 350px;
-        margin-left: 200px;
+        margin-left: 160px;
     }
     .right-paragraph{
         display: flex;
         flex-direction: column;
         position: relative;
         left: -400px;
-        top: 500px;
+        top: 550px;
         font-size: 25px
     }
     .button{
@@ -252,19 +253,19 @@ button{
     }
     .stroke{
         position: relative;
-        left: -550px;
+        left: -620px;
         top: 250px;
         font-size: 50px;
         width: 40px;  
     }
     .bottom-paragraph{
         position: relative;
-        left: -750px;
-        top: 1000px;
+        left: -620px;
+        top: 1100px;
         font-size: 18px;
         text-align: center;
         justify-content: center;
-        margin: auto;
+        width: 250px;
     }
     .dance{
        position: relative;
@@ -286,4 +287,3 @@ button{
         opacity: 0.2;
     }
 }
-
